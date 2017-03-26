@@ -17,7 +17,7 @@ public class myModel {
     Connection connection;
     private FileInputStream fin;
     private Properties ht;
-    ResultSet resultSet;
+    ResultSet resultSet=null;
 
     public myModel() {
         String str = System.getProperty("user.home");
@@ -38,13 +38,19 @@ public class myModel {
     }
 
     public ResultSet getResult(String c) throws Exception {
+    String _createDb=null;
     String _out=null;
         if (c.equals("out")) {
             _out=ht.getProperty("out");
+            Statement statement = connection.createStatement();
+            resultSet = statement.executeQuery(_out);
         }
-        Statement statement = connection.createStatement();
-        //String s = "select * from tovari_ceni";
-        resultSet = statement.executeQuery(_out);
+        if(c.equals("createDb")){
+            _createDb=ht.getProperty("createDb");
+            Statement statement = connection.createStatement();
+             statement.executeUpdate(_createDb);
+        }
+
 
         return resultSet;
 }

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34075f2a-bf69-45c4-901f-0e9584127af5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/myModel.java" afterPath="$PROJECT_DIR$/src/main/java/myModel.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +24,8 @@
       <file leaf-file-name="myModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/myModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            <state relative-caret-position="255">
+              <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,8 +36,8 @@
       <file leaf-file-name="ManagmentSystem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kosta/mysql/ManagmentSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="32" column="32" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="-68">
+              <caret line="25" column="4" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="32" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -59,8 +58,8 @@
       <file leaf-file-name="Glue.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Glue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -457,7 +456,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="732" extended-state="0" />
+    <frame x="-4" y="-4" width="1374" height="732" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -514,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kosta/mysql/ManagmentSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="-68">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="32" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -532,8 +531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/myModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        <state relative-caret-position="255">
+          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -542,8 +541,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Glue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
