@@ -1,0 +1,5 @@
+url=jdbc:mysql://localhost:3309/
+username=root
+password=""
+db_name=tovari
+driver=com.mysql.jdbc.Driver
