@@ -1,4 +1,4 @@
-
+package models.com.model1;
 
 import com.kosta.mysql.ManagmentSystem;
 
