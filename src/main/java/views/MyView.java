@@ -32,11 +32,7 @@ public class MyView  {
         try {
              resultSet=model.getResult(s);
              viewJframe();
-            /*while (resultSet.next()) {
-                System.out.println(resultSet.getString(2) +"|" +
-                        resultSet.getString(3)+"|" +resultSet.getString(4)
-                );
-            }*/
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -45,14 +41,14 @@ public class MyView  {
 
     }
     public void viewJframe(){
-        int n=0;
-        try {
-             n=resultSet.getRow();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        String [][]  arr= model2.resultSetToArr(resultSet,n,4);
-        JTable jTable=new JTable(arr,null);
-        jTable.setVisible(true);
+        JFrame jf=new JFrame();
+
+        String [][]  arr= model2.resultSetToArr(resultSet,4);
+        String [] arr2={"1","2","3","4"};
+        JTable jTable=new JTable(arr,arr2);
+        jf.add(jTable);
+        jf.setSize(500,700);
+        jf.setVisible(true);
+        jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }

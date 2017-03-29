@@ -6,6 +6,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.sql.Connection;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Properties;
 
@@ -53,6 +54,20 @@ public class myModel {
 
 
         return resultSet;
+}
+public int getRows(){
+    String _count=ht.getProperty("count");
+    int c=0;
+    try {
+        Statement statement = connection.createStatement();
+        ResultSet resultSet1=statement.executeQuery(_count);
+        resultSet1.next();
+         c=resultSet1.getInt(1);
+    } catch (SQLException e) {
+        e.printStackTrace();
+    }
+    return c;
+
 }
 
 

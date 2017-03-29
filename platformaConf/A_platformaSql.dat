@@ -1,2 +1,3 @@
 createDb=create database if not exists tovariTwo
 out=select * from tovari_ceni
+count=select count(*) from tovari_ceni;

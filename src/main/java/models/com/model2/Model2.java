@@ -1,19 +1,23 @@
 package models.com.model2;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import models.com.model1.*;
 
 public class Model2{
-public String[][] resultSetToArr(ResultSet rs,int n_stroki,int m_kolonki){
-String arr[][]=new String[n_stroki][m_kolonki];
+public String[][] resultSetToArr(ResultSet rs,int m_kolonki){
+    myModel myModel=new myModel();
+
+String arr[][]=null;
     try {
+        int n_rows= myModel.getRows();
+        arr=new String[n_rows][m_kolonki];
 
-        for(int i=0;i<m_kolonki;i++){
-            rs.next();
-        for(int j=0;j<n_stroki;j++){
-
-                arr[i][j]=rs.getString(j+1);
-
-        }
+        int i=0;
+        while (rs.next()) {
+            for(int j=0;j<m_kolonki;j++) {
+                arr[i][j] = rs.getString(j+1);
+            }
+            i++;
         }
 
     } catch (SQLException e) {
