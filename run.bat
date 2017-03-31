@@ -1,0 +1,1 @@
+start cmd /K D:\Programs\Java\jdk1.8.0_73\jre\bin\java.exe -cp d:/JAVA_LIBS/mysql-connector-java-5.1.6.jar;./target/classes Glue
